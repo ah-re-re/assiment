@@ -1,0 +1,132 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title> REGISTER </title>
+		<link href="style.css" rel='stylesheet' type='text/css' />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+		</script>
+		<!----webfonts---->
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+		<!----//webfonts---->
+		<script src="js/jquery.min.js"></script>
+	
+	
+		
+	
+	<body>
+		<!---start-wrap---->
+			<!---start-header---->
+			<div class="header">
+				<div class="top-header">
+					<div class="wrap">
+						<div class="top-header-left">
+							<ul>
+								<!---cart-tonggle-script---->
+								<script type="text/javascript">
+									$(function(){
+									    var $cart = $('#cart');
+									        $('#clickme').click(function(e) {
+									         e.stopPropagation();
+									       if ($cart.is(":hidden")) {
+									           $cart.slideDown("slow");
+									       } else {
+									           $cart.slideUp("slow");
+									       }
+									    });
+									    $(document.body).click(function () {
+									       if ($cart.not(":hidden")) {
+									           $cart.slideUp("slow");
+									       } 
+									    });
+									    });
+								</script>
+								<!---//cart-tonggle-script---->
+								<li><a class="cart" href="#"><span id="clickme"> </span></a></li>
+								<!---start-cart-bag---->
+								<div id="cart">Your Cart is Empty <span>(0)</span></div>
+								<!---start-cart-bag---->
+								<li><a class="info" href="#"><span> </span></a></li>
+							</ul>
+						</div>
+
+						<div class="top-header-right">
+							<ul>
+								<li><a href="login.html">Login</a><span> </span></li>
+								<li><a href="register.html">Join</a></li>
+							</ul>
+						</div>
+						<div class="clear"> </div>
+					</div>
+				</div>
+				<!----start-mid-head---->
+				<div class="mid-header">
+					<div class="wrap">
+						<div class="mid-grid-left">
+							<form>
+								<input type="text" placeholder="search" />
+							</form>
+						</div>
+						<div class="mid-grid-right">
+							<a class="logo" href="assiment.html"><img src="img/275445330_3209863779228832_3176329957517959783_n.png" width="200" height="80"></a></a>
+						</div>
+						<div class="clear"> </div>
+					</div>
+				</div>
+
+		<div class="content login-box">
+			<div class="login-main">
+				<div class="wrap">
+					<h1>CREATE AN ACCOUNT</h1>
+					<div class="register-grids">
+						<form> 
+								<div class="register-top-grid">
+										<h3>INFORMATION PERSONNEL</h3>
+										<div>
+											<span>Name<label>*</label></span>
+											<input type="text"> 
+										</div>
+										<div>
+											<span>first name<label>*</label></span>
+											<input type="text"> 
+										</div>
+										<div>
+											<span>Email Address<label>*</label></span>
+											<input type="text"> 
+										</div>
+										<div class="clear"> </div>
+											<a class="news-letter" href="#">
+												<label class="checkbox"><input type="checkbox" name="checkbox" checked=""><i> </i>Sign Up for Newsletter</label>
+											</a>
+										<div class="clear"> </div>
+								</div>
+								<div class="clear"> </div>
+								<div class="register-bottom-grid">
+										<h3>LOGIN INFORMATION</h3>
+										<div>
+											<span>PASSWORD<label>*</label></span>
+											<input type="text">
+										</div>
+										<div>
+											<span>PASSWORD CONFIRMATION<label>*</label></span>
+											<input type="text">
+										</div>
+										<div class="clear"> </div>
+								</div>
+								<div class="clear"> </div>
+								<a class="acount-btn" href="assiment.html">submit</a>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</body>
+</html>
+
